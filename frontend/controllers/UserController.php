@@ -18,6 +18,7 @@ class UserController extends Controller
      */
     public function behaviors()
     {
+        echo 1;
         return array_merge(
             parent::behaviors(),
             [
